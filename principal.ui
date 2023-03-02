@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>459</width>
+    <height>436</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>459</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuOne">
+    <property name="title">
+     <string>One</string>
+    </property>
+    <addaction name="actionAutentificacion"/>
+   </widget>
+   <widget class="QMenu" name="menuTwo">
+    <property name="title">
+     <string>Two</string>
+    </property>
+    <addaction name="actionregistro_de_clientes"/>
+   </widget>
+   <widget class="QMenu" name="menuThree">
+    <property name="title">
+     <string>Three</string>
+    </property>
+    <addaction name="actionregistro_de_la_Comanda"/>
+   </widget>
+   <widget class="QMenu" name="menuFour">
+    <property name="title">
+     <string>Four</string>
+    </property>
+    <addaction name="actionFacturaci_n"/>
+   </widget>
+   <widget class="QMenu" name="menuExit">
+    <property name="title">
+     <string>Exit</string>
+    </property>
+    <addaction name="actionSalir"/>
+   </widget>
+   <addaction name="menuOne"/>
+   <addaction name="menuTwo"/>
+   <addaction name="menuThree"/>
+   <addaction name="menuFour"/>
+   <addaction name="menuExit"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <action name="actionAutentificacion">
+   <property name="text">
+    <string>Autentificacion</string>
+   </property>
+   <property name="shortcut">
+    <string>CapsLock, A</string>
+   </property>
+  </action>
+  <action name="actionregistro_de_clientes">
+   <property name="text">
+    <string>registro de clientes</string>
+   </property>
+   <property name="shortcut">
+    <string>CapsLock, B</string>
+   </property>
+  </action>
+  <action name="actionregistro_de_la_Comanda">
+   <property name="text">
+    <string>registro de la Comanda</string>
+   </property>
+   <property name="shortcut">
+    <string>CapsLock, C</string>
+   </property>
+  </action>
+  <action name="actionFacturaci_n">
+   <property name="text">
+    <string>Facturación</string>
+   </property>
+   <property name="shortcut">
+    <string>CapsLock, D</string>
+   </property>
+  </action>
+  <action name="actionSalir">
+   <property name="text">
+    <string>Salir</string>
+   </property>
+   <property name="shortcut">
+    <string>CapsLock, E</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
